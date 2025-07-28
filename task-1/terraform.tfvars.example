@@ -1,0 +1,8 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Instance Configuration
+instance_type = "t2.micro"
+
+# SSH Public Key (replace with your own)
+ssh_public_key = "ssh-rsa AAAAB3... your-key-here user@hostname"
