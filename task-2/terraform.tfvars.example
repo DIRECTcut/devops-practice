@@ -1,0 +1,8 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# S3 Bucket Configuration
+bucket_name = "my-static-website"  # This will have a random suffix added
+
+# Website Configuration
+site_title = "My Awesome Static Website"
