@@ -1,0 +1,18 @@
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Target URL to monitor (replace with your EC2 instance public IP from task 1)
+target_url = "http://YOUR_EC2_PUBLIC_IP"
+
+# Notification Configuration
+notification_type = "slack"  # or "telegram"
+
+# Slack Configuration (if using Slack)
+slack_webhook_url = "https://hooks.slack.com/services/YOUR/SLACK/WEBHOOK"
+
+# Telegram Configuration (if using Telegram)
+telegram_bot_token = "YOUR_BOT_TOKEN"
+telegram_chat_id   = "YOUR_CHAT_ID"
+
+# Lambda Function Name
+function_name = "nginx-health-monitor"

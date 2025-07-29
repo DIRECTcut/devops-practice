@@ -40,10 +40,6 @@ plan: validate
 apply: validate
 	terraform apply
 
-# Apply without approval prompt (use with caution!)
-apply-auto: validate
-	terraform apply -auto-approve
-
 # Destroy infrastructure
 destroy:
 	terraform destroy

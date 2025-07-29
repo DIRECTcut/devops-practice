@@ -43,17 +43,9 @@ plan: validate
 apply: validate
 	terraform apply "tfplan"
 
-# Apply without approval prompt (use with caution!)
-apply-auto: validate
-	terraform apply -auto-approve
-
 # Destroy infrastructure
 destroy:
 	terraform destroy
-
-# Destroy without approval prompt (use with caution!)
-destroy-auto:
-	terraform destroy -auto-approve
 
 # Show outputs
 output:
